@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #2d2d2d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+section {
+    background-color: #333;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 48%;
+}
+
+#product-list h2,
+#cart h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #444;
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.product p {
+    margin-bottom: 15px;
+    color: #bbb;
+}
+
+.add-to-cart-btn,
+.remove-from-cart-btn,
+#checkout-btn {
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-btn {
+    background: linear-gradient(to right, #4e2a84, #cd459d);
+    padding: 12px 20px;
+}
+
+.add-to-cart-btn:hover {
+    background: linear-gradient(to right, #662d91, #e25fba);
+}
+
+.remove-from-cart-btn {
+    background: linear-gradient(to right, #822db4, #ff449f);
+    padding: 8px 12px;
+}
+
+.remove-from-cart-btn:hover {
+    background: linear-gradient(to right, #9e36c3, #e74c3c);
+}
+
+#checkout-btn {
+    background: linear-gradient(to right, #187bdd, #38abfd);
+    padding: 15px 30px;
+}
+
+#checkout-btn:hover {
+    background: linear-gradient(to right, #0067b9, #2b95d6);
+}
+
+.cart {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #666;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}

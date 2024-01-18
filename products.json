@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "name": "S23 Ultra",
+      "description": "El último modelo de smartphone con pantalla AMOLED y cámara de alta resolución.",
+      "price": 599.99
+    },
+    {
+      "id": 2,
+      "name": "Galxy Book",
+      "description": "Una laptop potente con procesador de última generación y SSD de alta velocidad.",
+      "price": 1499.99
+    },
+    {
+      "id": 3,
+      "name": "Galaxy Buds Pro",
+      "description": "Auriculares cómodos y con cancelación de ruido para una experiencia auditiva inmersiva.",
+      "price": 129.99
+    },
+    {
+      "id": 4,
+      "name": "Cámara DSLR Profesional",
+      "description": "Captura momentos inolvidables con esta cámara DSLR de alta calidad.",
+      "price": 1099.99
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch Fitness",
+      "description": "Un smartwatch diseñado para monitorear tu salud y mejorar tu rendimiento físico.",
+      "price": 149.99
+    }
+  ]
+  
+  
